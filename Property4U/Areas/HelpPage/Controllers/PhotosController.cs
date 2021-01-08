@@ -102,9 +102,9 @@ namespace Property4U.Areas.HelpPage.Controllers
         }
 
         [Authorize(Roles = "Developer, Agent")]
-        /// <summary>
-        /// Authorize Roles - Agent
-        /// </summary>
+        // <summary>
+        // Authorize Roles - Agent
+        // </summary>
 
         // POST: api/Photos
         [ResponseType(typeof(Photo))]

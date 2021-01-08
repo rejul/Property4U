@@ -19,7 +19,7 @@ namespace Property4U.Core
                 //if (check == false)
                 //{
                 //    check = true;
-                //    HttpContext.Current.Application["Info"] = dbo.Configurations.Find(1);
+                // HttpContext.Current.Application["Info"] = dbo.Configurations.Find(1);
                 //}
                 return HttpContext.Current.Application["Info"] as SysTask;
             }

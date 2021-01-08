@@ -15,9 +15,9 @@ namespace Property4U.Core
         private static bool check = false;
 
 
-        //public /*async*/ static /*Task<*/Configuration/*>*/ GetSysInfo()
+        //public async static Task<Configuration> GetSysInfo()
         //{
-        //    return /*await*/ dbo.Configurations.Find/*Async*/(1);
+        //    return await dbo.Configurations.FindAsync(1);
         //}
 
         // read-write variable

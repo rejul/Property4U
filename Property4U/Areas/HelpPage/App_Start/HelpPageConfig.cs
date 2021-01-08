@@ -37,7 +37,7 @@ namespace Property4U.Areas.HelpPage
             // Uncomment the following to use the documentation from XML documentation file.
             config.SetDocumentationProvider(new XmlDocumentationProvider(HttpContext.Current.Server.MapPath("~/App_Data/XmlDocument.xml")));
 
-            ///* Web API - Formats - P4U */
+            //* Web API - Formats - P4U */
             //config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Serialize;
             //config.Formatters.JsonFormatter.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
             //config.Formatters.XmlFormatter.UseXmlSerializer = false;
